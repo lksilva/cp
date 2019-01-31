@@ -1,6 +1,6 @@
 {
   "name": "@lksilva/cleancomponents",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "UI CleanComponents",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
