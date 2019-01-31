@@ -1,6 +1,6 @@
 {
   "name": "@lksilva/cleancomponents",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "UI CleanComponents",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,6 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
     "storybook": "start-storybook -p 6006",
-    "postinstall": "mkdir -p node_modules/@material-ui/core/node_modules/@types/jss && cp -r node_modules/@types/jss node_modules/@material-ui/core/node_modules/@types",
     "build-storybook": "build-storybook"
   },
   "author": "Lucas Silva",
