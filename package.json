@@ -1,6 +1,6 @@
 {
   "name": "@lksilva/cleancomponents",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "UI CleanComponents",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,6 +12,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
     "storybook": "start-storybook -p 6006",
+    "postinstall": "mkdir -p node_modules/@material-ui/core/node_modules/@types/jss && cp -r node_modules/@types/jss node_modules/@material-ui/core/node_modules/@types",
     "build-storybook": "build-storybook"
   },
   "author": "Lucas Silva",
@@ -21,8 +22,10 @@
     "@material-ui/styles": "^3.0.0-alpha.9",
     "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
+    "@types/styled-components": "^4.1.6",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
   },
   "devDependencies": {
     "@babel/cli": "7.2.0",
