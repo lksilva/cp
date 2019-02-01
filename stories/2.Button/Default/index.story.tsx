@@ -7,7 +7,7 @@ import { withDocs } from "storybook-readme";
 
 import readme from "./README.md";
 
-import { Button } from "../../src/Buttons/";
+import { Button } from "../../../src/Buttons/";
 
 storiesOf("Buttons", module)
   .addDecorator(withKnobs)
