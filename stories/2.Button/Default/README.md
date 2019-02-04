@@ -20,7 +20,7 @@ import { Button } from "elements";
 
 ### Roadmap
 
-```js
+```jsx
 import { Button } from 'elements';
 
 render() {
